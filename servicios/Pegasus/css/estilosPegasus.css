@@ -191,7 +191,7 @@
     position: relative;
     width: 90vw;
     z-index:10;
-    left: -1vw;
+    left: 3vw;
     margin: 0;
     margin-top: 30px;
     border: 3px solid #1C1F2A;
@@ -247,7 +247,6 @@
     margin-top: 30px;
     border: 3px solid #1C1F2A;
 }
-}
 #btnContacto2 {
     background: #64AE45; 
     color: #FFFFFF;
@@ -264,7 +263,7 @@
     font-weight: 600;
     font-size: 12px;
 }
-/*----------------------------------------------------- Contenedor Las Caracteristicas ------------------------------------------------- */
+/*----------------------------------------------------- Contenedor Los Beneficios ------------------------------------------------- */
 
 #contenedorBeneficios{
     position: relative; 
@@ -301,8 +300,12 @@
 }
 #imgContenedorBeneficios {
     position: relative;
-    left: 0px;
-    width: 100%;
+    width: 90vw;
+    z-index:10;
+    left: 3vw;
+    margin: 0;
+    margin-top: 30px;
+    border: 3px solid #1C1F2A;
 }
 
 /*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
@@ -405,6 +408,8 @@
 }
 
 }
+
+
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
 /*--------------------------------------------------- Formato Desktop entre 768 px y 1200 px -------------------------------------------------------*/ 
@@ -685,7 +690,7 @@
 
 #imgContenedorSolucionesIntegrales{
     position: relative;
-    left: 50px;2
+    left: 50px;
 }
 #imgContenedorSolucionesIntegrales{
     position: relative;
@@ -1015,8 +1020,7 @@
     font-weight: 600;
     font-size: 12px;
 }
-
-/*----------------------------------------------------- Contenedor Los Beneficios ------------------------------------------------- */
+/*----------------------------------------------------- Contenedor Las Caracteristicas ------------------------------------------------- */
 
 #contenedorBeneficios{
     position: relative; 
@@ -1024,22 +1028,22 @@
     max-width: 1700px;
     align-content: center;
     overflow: hidden;
-}
-#colImgContenedorBeneficios {
-    position: relative;
-    left: 50%;
-}
-#colTxtContenedorBeneficios {
-    position: relative;
-    left: -50%;
+    left: 0px;
 }
 #txtcontenedorBeneficios {
     position: relative;
+    left: 0%;
+    margin-top: 25px;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
+    font-weight: 700;
     font-size: 45px;
-    text-align: left;
+    
+    text-align: start;
+
+    letter-spacing: 0.05em;
     color: #1C1F2A;
 }
 #txtParrafocontenedorBeneficios{
@@ -1047,17 +1051,15 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 21px;
-    line-height: 25px;
+    font-size: 17px;
+    line-height: 25px; 
     color: #1C1F2A;
 }
 #imgContenedorBeneficios {
     position: relative;
-    left: -10px;
+    left: 0px;
     width: 100%;
-    top: 9%;
 }
-
 
 /*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
 
@@ -1070,28 +1072,23 @@
     background: transparent;
     overflow: hidden;
     z-index: 100;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 #imgContenedorSolucionesIntegrales{
     position: relative;
-    left: 50px;
-    width: 70%;
-    left: 15%;
-    top: 10%;
-
+    width: 80%;
+    left: 19%;
 }
-#imgMobileContenedorSolucionesIntegrales{
-    display:none;
-}
-
 #txtContenedorSolucionesIntegrales {
     position: relative;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 47px;
+    font-size: 45px;
     
     color: #1C1F2A;
     text-align: start;
@@ -1099,23 +1096,25 @@
     letter-spacing: 0.05em;
 }
 #txtParrafoContenedorSolucionesIntegrales {
+    position: relative;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    font-size: 21px;
-    line-height: 25px;
-    letter-spacing: 0.02em;
+    font-size: 17px;
+    line-height: 25px; 
     color: #404040;
+}
+
+#btnContacto {
+    display: none;
 }
 
 /*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
 
 #carouselProductosControl{
-    position: relative; 
-    height: auto;
-    max-width: 1700px;
-    align-content: center;
-    overflow: hidden;
+    position: relative;
+    left: 4%; 
 }
 #imgVectorFlechaDerecha {
     position:relative;
@@ -1160,5 +1159,8 @@
     margin-right: 26px;
 }
 
-
 }
+
+
+
+
