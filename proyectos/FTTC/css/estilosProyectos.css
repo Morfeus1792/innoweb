@@ -41,7 +41,7 @@ body, html {
        }  
     #txtIntro {
         position: absolute;
-        width: 51%;
+        width: 90%;
         height: 43px;
         left: 9%;
         top: 6vw;
@@ -59,7 +59,7 @@ body, html {
         width: 70%;
         height: 116px;
         left: 9%;
-        top: 18vw;
+        top: 25vw;
             
         font-family: 'Roboto';
         font-style: normal;
